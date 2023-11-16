@@ -2,16 +2,15 @@
 
 html {
     font-family: poppins;
-    width: 360px;
-    height: 900px;
 }
 
-head{
+h1 {
     margin-top: 119px;
 }
 
 body {
-    height: 700px;
+    width: 360px;
+    height: 900px;
 }
 
 form {
@@ -33,7 +32,6 @@ a {
     text-decoration: none;
     cursor: pointer;
     color: rgba(47, 137, 252, 1);
-
 }
 
 #showPSW {
@@ -65,7 +63,6 @@ a {
     width: 312px;
     height: 48px;
     border-radius: 10px;
-    border: 1px;
     border: 1px solid #00000066;
     font-size: 12px;
     font-weight: 400;
@@ -121,9 +118,10 @@ button {
 footer {
     flex-direction: row;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     width: 310px;
     align-items: center;
+    margin-top: 80px;
 }
 
 #founder {
