@@ -14,11 +14,8 @@ body {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
     height: 130px;
     position: relative;
-    justify-content: space-between;
 }
 
 .text {
