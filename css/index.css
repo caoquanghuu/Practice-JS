@@ -3,11 +3,15 @@
 html {
     font-family: poppins;
     width: 360px;
-    height: 800px;
+    height: 900px;
+}
+
+head{
+    margin-top: 119px;
 }
 
 body {
-    height: 600px;
+    height: 700px;
 }
 
 form {
@@ -42,7 +46,7 @@ a {
 .flex {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -79,6 +83,24 @@ button {
     background: rgba(14, 100, 210, 1);
     border: none;
     color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+#login-button {
+    display: block;
+}
+
+#gg-btn {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.4)
 }
 
 .or {
@@ -90,4 +112,27 @@ button {
 
 #line {
     width: 140px;
+}
+
+#btn-space {
+    width: 26px;
+}
+
+footer {
+    flex-direction: row;
+    display: flex;
+    justify-content:flex-start;
+    width: 310px;
+    align-items: center;
+}
+
+#founder {
+    width: 138px;
+    height: 36px;
+    opacity: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
 }
